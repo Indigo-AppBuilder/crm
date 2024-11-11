@@ -4,8 +4,8 @@ import { IGX_CHIPS_DIRECTIVES, IGX_GRID_DIRECTIVES, IGX_LIST_DIRECTIVES, IgxAvat
 import { IgxCategoryChartModule } from 'igniteui-angular-charts';
 import { Subject, takeUntil } from 'rxjs';
 import { CustomersType } from '../models/northwind/customers-type';
-import { MeetingsTasksType } from '../models/crmapp-data/meetings-tasks-type';
 import { RevenueType } from '../models/ecommerce/revenue-type';
+import { MeetingsTasksType } from '../models/crmapp-data/meetings-tasks-type';
 import { NorthwindService } from '../services/northwind.service';
 import { ECommerceService } from '../services/ecommerce.service';
 import { CRMAppDataService } from '../services/crmapp-data.service';
